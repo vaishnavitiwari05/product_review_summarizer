@@ -1,0 +1,62 @@
+{
+ "upload_id": 1,
+ "filename": "sample_reviews.csv",
+ "validation": {
+  "filename": "sample_reviews.csv",
+  "total_rows": 109,
+  "empty_reviews": 2,
+  "valid_reviews": 107,
+  "missing_ratings": 1,
+  "invalid_ratings": 0,
+  "missing_dates": 1,
+  "invalid_dates": 0,
+  "products_found": 2,
+  "columns_detected": {
+   "product_id": "product_id",
+   "product_name": "product_name",
+   "review": "review",
+   "rating": "rating",
+   "review_date": "review_date"
+  },
+  "columns_missing_optional": [],
+  "warnings": [
+   "2 empty review(s) will be ignored.",
+   "1 missing and 0 invalid rating(s) (valid range 1-5); these reviews are kept and sentiment is computed from text."
+  ]
+ },
+ "cleaning": {
+  "total_reviews": 109,
+  "empty_removed": 2,
+  "noise_removed": 0,
+  "exact_duplicates_removed": 4,
+  "near_duplicates_removed": 0,
+  "duplicates_removed": 4,
+  "valid_reviews": 103,
+  "duplicate_ratio": 0.037,
+  "average_rating": 3.44,
+  "rated_reviews": 102,
+  "date_min": "2024-01-07",
+  "date_max": "2025-12-28",
+  "warnings": []
+ },
+ "products": [
+  {
+   "product_id": "P001",
+   "product_name": "AuraBeat X1 Wireless Headphones",
+   "review_count": 67,
+   "avg_rating": 3.48,
+   "analyzed": false,
+   "analyzed_at": null,
+   "last_run": null
+  },
+  {
+   "product_id": "P002",
+   "product_name": "Nova S5 Smartphone",
+   "review_count": 36,
+   "avg_rating": 3.37,
+   "analyzed": false,
+   "analyzed_at": null,
+   "last_run": null
+  }
+ ]
+}

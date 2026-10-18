@@ -1,0 +1,640 @@
+{
+ "product": {
+  "product_id": "P002",
+  "product_name": "Nova S5 Smartphone",
+  "total_reviews": 36,
+  "rows_in_file": 38,
+  "removed_as_empty_noise_or_duplicate": 2,
+  "average_rating": 3.37,
+  "date_min": "2024-03-23",
+  "date_max": "2025-12-28"
+ },
+ "sentiment": {
+  "total": 36,
+  "counts": {
+   "positive": 17,
+   "neutral": 14,
+   "negative": 5
+  },
+  "percentages": {
+   "positive": 47.2,
+   "neutral": 38.9,
+   "negative": 13.9
+  },
+  "overall": "Mostly Positive",
+  "net_sentiment": 33.3,
+  "average_score": 0.275,
+  "backend": "vader",
+  "rating_check": {
+   "rated_reviews": 35,
+   "agreement_pct": 71.4,
+   "mismatches": 1
+  }
+ },
+ "aspects": [
+  {
+   "aspect": "battery",
+   "frequency": 9,
+   "mention_pct": 25.0,
+   "positive": 5,
+   "neutral": 3,
+   "negative": 1,
+   "avg_score": 0.3,
+   "polarity": "positive",
+   "examples": {
+    "positive": [
+     {
+      "review_id": 77,
+      "clause": "Charges super fast",
+      "review": "Charges super fast. Battery and charging speed are fantastic."
+     },
+     {
+      "review_id": 69,
+      "clause": "Amazing battery and performance",
+      "review": "Amazing battery and performance. Best phone I've had in years."
+     },
+     {
+      "review_id": 90,
+      "clause": "Battery backup is great",
+      "review": "Battery backup is great, easily gets me through the day."
+     }
+    ],
+    "negative": [
+     {
+      "review_id": 96,
+      "clause": "Battery life is terrible after the last update",
+      "review": "Battery life is terrible after the last update. Barely lasts half a day."
+     }
+    ],
+    "neutral": [
+     {
+      "review_id": 70,
+      "clause": "Battery drains way too fast",
+      "review": "Battery drains way too fast, I need to charge it twice a day."
+     },
+     {
+      "review_id": 93,
+      "clause": "Battery lasts a full day and a half with heavy use",
+      "review": "Battery lasts a full day and a half with heavy use. Very happy."
+     },
+     {
+      "review_id": 99,
+      "clause": "full charge in about 40 minutes",
+      "review": "Fast charging is a lifesaver, full charge in about 40 minutes."
+     }
+    ]
+   }
+  },
+  {
+   "aspect": "camera",
+   "frequency": 6,
+   "mention_pct": 16.7,
+   "positive": 6,
+   "neutral": 0,
+   "negative": 0,
+   "avg_score": 0.642,
+   "polarity": "positive",
+   "examples": {
+    "positive": [
+     {
+      "review_id": 71,
+      "clause": "Camera is good in daylight",
+      "review": "Camera is good in daylight but photos look grainy at night."
+     },
+     {
+      "review_id": 82,
+      "clause": "Camera quality is excellent for the price",
+      "review": "Camera quality is excellent for the price, night mode is impressive."
+     },
+     {
+      "review_id": 68,
+      "clause": "Camera is superb",
+      "review": "Camera is superb. Photos are sharp with great colours, even in low light."
+     }
+    ],
+    "negative": [],
+    "neutral": []
+   }
+  },
+  {
+   "aspect": "screen",
+   "frequency": 5,
+   "mention_pct": 13.9,
+   "positive": 2,
+   "neutral": 3,
+   "negative": 0,
+   "avg_score": 0.246,
+   "polarity": "positive",
+   "examples": {
+    "positive": [
+     {
+      "review_id": 103,
+      "clause": "Fast, great screen, and a camera that beats my old flagship",
+      "review": "Excellent phone overall. Fast, great screen, and a camera that beats my old flagship."
+     },
+     {
+      "review_id": 79,
+      "clause": "Screen is gorgeous, bright and smooth at 120Hz",
+      "review": "Screen is gorgeous, bright and smooth at 120Hz."
+     }
+    ],
+    "negative": [],
+    "neutral": [
+     {
+      "review_id": 87,
+      "clause": "Screen stopped responding to touch after two months",
+      "review": "Screen stopped responding to touch after two months. Customer service kept asking me to reset it."
+     },
+     {
+      "review_id": 78,
+      "clause": "Arrived with a cracked screen",
+      "review": "Arrived with a cracked screen. Packaging was inadequate."
+     },
+     {
+      "review_id": 83,
+      "clause": "Display is vivid and the refresh rate makes scrolling buttery smooth",
+      "review": "Display is vivid and the refresh rate makes scrolling buttery smooth."
+     }
+    ]
+   }
+  },
+  {
+   "aspect": "speed",
+   "frequency": 5,
+   "mention_pct": 13.9,
+   "positive": 2,
+   "neutral": 3,
+   "negative": 0,
+   "avg_score": 0.229,
+   "polarity": "positive",
+   "examples": {
+    "positive": [
+     {
+      "review_id": 77,
+      "clause": "charging speed are fantastic",
+      "review": "Charges super fast. Battery and charging speed are fantastic."
+     },
+     {
+      "review_id": 99,
+      "clause": "Fast charging is a lifesaver",
+      "review": "Fast charging is a lifesaver, full charge in about 40 minutes."
+     }
+    ],
+    "negative": [],
+    "neutral": [
+     {
+      "review_id": 70,
+      "clause": "Battery drains way too fast",
+      "review": "Battery drains way too fast, I need to charge it twice a day."
+     },
+     {
+      "review_id": 76,
+      "clause": "Fast and smooth, handles games without issues",
+      "review": "Fast and smooth, handles games without issues."
+     },
+     {
+      "review_id": 94,
+      "clause": "Fingerprint sensor is fast and accurate",
+      "review": "Fingerprint sensor is fast and accurate, face unlock works too."
+     }
+    ]
+   }
+  },
+  {
+   "aspect": "price",
+   "frequency": 4,
+   "mention_pct": 11.1,
+   "positive": 3,
+   "neutral": 1,
+   "negative": 0,
+   "avg_score": 0.441,
+   "polarity": "positive",
+   "examples": {
+    "positive": [
+     {
+      "review_id": 85,
+      "clause": "Fair price",
+      "review": "Fair price but the software has some annoying bloatware."
+     },
+     {
+      "review_id": 82,
+      "clause": "Camera quality is excellent for the price",
+      "review": "Camera quality is excellent for the price, night mode is impressive."
+     },
+     {
+      "review_id": 97,
+      "clause": "Great value for money, flagship features at a mid-range price",
+      "review": "Great value for money, flagship features at a mid-range price."
+     }
+    ],
+    "negative": [],
+    "neutral": [
+     {
+      "review_id": 84,
+      "clause": "Decent phone for the price, no major complaints or highlights",
+      "review": "Decent phone for the price, no major complaints or highlights."
+     }
+    ]
+   }
+  },
+  {
+   "aspect": "performance",
+   "frequency": 3,
+   "mention_pct": 8.3,
+   "positive": 3,
+   "neutral": 0,
+   "negative": 0,
+   "avg_score": 0.428,
+   "polarity": "positive",
+   "examples": {
+    "positive": [
+     {
+      "review_id": 89,
+      "clause": "Performance is blazing fast, no lag even with many apps open",
+      "review": "Performance is blazing fast, no lag even with many apps open."
+     },
+     {
+      "review_id": 101,
+      "clause": "Performance is good",
+      "review": "Performance is good but the phone gets hot when gaming."
+     },
+     {
+      "review_id": 69,
+      "clause": "Amazing battery and performance",
+      "review": "Amazing battery and performance. Best phone I've had in years."
+     }
+    ],
+    "negative": [],
+    "neutral": []
+   }
+  },
+  {
+   "aspect": "software",
+   "frequency": 3,
+   "mention_pct": 8.3,
+   "positive": 1,
+   "neutral": 0,
+   "negative": 2,
+   "avg_score": -0.159,
+   "polarity": "mixed",
+   "examples": {
+    "positive": [
+     {
+      "review_id": 91,
+      "clause": "Clean interface and smooth software, updates arrive on time",
+      "review": "Clean interface and smooth software, updates arrive on time."
+     }
+    ],
+    "negative": [
+     {
+      "review_id": 85,
+      "clause": "the software has some annoying bloatware",
+      "review": "Fair price but the software has some annoying bloatware."
+     },
+     {
+      "review_id": 73,
+      "clause": "Software experience is poor",
+      "review": "Too many pre-installed apps and ads in the system UI. Software experience is poor."
+     }
+    ],
+    "neutral": []
+   }
+  }
+ ],
+ "recurring_strengths": [
+  {
+   "aspect": "camera",
+   "sentiment": "positive",
+   "count": 6,
+   "share_of_aspect": 1.0,
+   "share_of_reviews": 16.7,
+   "contested": false,
+   "themes": [
+    {
+     "label": "Solid phone, camera and battery both great",
+     "count": 2,
+     "review_ids": [
+      88,
+      92
+     ]
+    }
+   ],
+   "examples": [
+    {
+     "review_id": 88,
+     "clause": "Great camera and battery, love this phone",
+     "review": "Great camera and battery, love this phone."
+    },
+    {
+     "review_id": 92,
+     "clause": "Solid phone, camera and battery both great",
+     "review": "Solid phone, camera and battery both great."
+    },
+    {
+     "review_id": 103,
+     "clause": "Fast, great screen, and a camera that beats my old flagship",
+     "review": "Excellent phone overall. Fast, great screen, and a camera that beats my old flagship."
+    }
+   ]
+  },
+  {
+   "aspect": "battery",
+   "sentiment": "positive",
+   "count": 5,
+   "share_of_aspect": 0.556,
+   "share_of_reviews": 13.9,
+   "contested": false,
+   "themes": [
+    {
+     "label": "Great camera and battery, love this phone",
+     "count": 3,
+     "review_ids": [
+      88,
+      92,
+      90
+     ]
+    }
+   ],
+   "examples": [
+    {
+     "review_id": 88,
+     "clause": "Great camera and battery, love this phone",
+     "review": "Great camera and battery, love this phone."
+    },
+    {
+     "review_id": 92,
+     "clause": "Solid phone, camera and battery both great",
+     "review": "Solid phone, camera and battery both great."
+    },
+    {
+     "review_id": 90,
+     "clause": "Battery backup is great",
+     "review": "Battery backup is great, easily gets me through the day."
+    }
+   ]
+  },
+  {
+   "aspect": "performance",
+   "sentiment": "positive",
+   "count": 3,
+   "share_of_aspect": 1.0,
+   "share_of_reviews": 8.3,
+   "contested": false,
+   "themes": [],
+   "examples": [
+    {
+     "review_id": 69,
+     "clause": "Amazing battery and performance",
+     "review": "Amazing battery and performance. Best phone I've had in years."
+    },
+    {
+     "review_id": 101,
+     "clause": "Performance is good",
+     "review": "Performance is good but the phone gets hot when gaming."
+    },
+    {
+     "review_id": 89,
+     "clause": "Performance is blazing fast, no lag even with many apps open",
+     "review": "Performance is blazing fast, no lag even with many apps open."
+    }
+   ]
+  },
+  {
+   "aspect": "price",
+   "sentiment": "positive",
+   "count": 3,
+   "share_of_aspect": 0.75,
+   "share_of_reviews": 8.3,
+   "contested": false,
+   "themes": [],
+   "examples": [
+    {
+     "review_id": 97,
+     "clause": "Great value for money, flagship features at a mid-range price",
+     "review": "Great value for money, flagship features at a mid-range price."
+    },
+    {
+     "review_id": 82,
+     "clause": "Camera quality is excellent for the price",
+     "review": "Camera quality is excellent for the price, night mode is impressive."
+    },
+    {
+     "review_id": 85,
+     "clause": "Fair price",
+     "review": "Fair price but the software has some annoying bloatware."
+    }
+   ]
+  }
+ ],
+ "recurring_issues": [],
+ "contested_aspects": [],
+ "summary": {
+  "mode": "mock",
+  "model": "mock-summarizer",
+  "warnings": [
+   "Demo mode: this summary was generated offline from the statistics (set USE_MOCK_LLM=false and add LLM_API_KEY for the real LLM)."
+  ],
+  "overall_summary": "Customers are mostly positive about Nova S5 Smartphone: 47% of 36 reviews are positive and 14% negative. Most praised: camera, battery, performance. No complaint recurs often enough to stand out.",
+  "pros": [
+   "Camera: 6 positive mentions (100% of reviews that discuss it)",
+   "Battery: 5 positive mentions (56% of reviews that discuss it)",
+   "Performance: 3 positive mentions (100% of reviews that discuss it)",
+   "Price: 3 positive mentions (75% of reviews that discuss it)"
+  ],
+  "cons": [],
+  "recurring_issues": [],
+  "important_aspects": [
+   {
+    "aspect": "Battery",
+    "note": "Discussed in 9 reviews; mostly positive (5 positive, 1 negative)."
+   },
+   {
+    "aspect": "Camera",
+    "note": "Discussed in 6 reviews; mostly positive (6 positive, 0 negative)."
+   },
+   {
+    "aspect": "Screen",
+    "note": "Discussed in 5 reviews; mostly positive (2 positive, 0 negative)."
+   },
+   {
+    "aspect": "Speed",
+    "note": "Discussed in 5 reviews; mostly positive (2 positive, 0 negative)."
+   },
+   {
+    "aspect": "Price",
+    "note": "Discussed in 4 reviews; mostly positive (3 positive, 0 negative)."
+   }
+  ],
+  "sentiment_explanation": "47% positive versus 14% negative gives a net sentiment of +33 points, which is labelled 'Mostly Positive'."
+ },
+ "validation": {
+  "verdict": "Evidence-backed",
+  "score": 89,
+  "headline": "The summary is consistent with the analysed review data.",
+  "checks": [
+   {
+    "id": "sentiment",
+    "name": "Overall sentiment matches data",
+    "status": "pass",
+    "message": "Stated sentiment agrees with the computed result: Mostly Positive.",
+    "details": []
+   },
+   {
+    "id": "pros",
+    "name": "Pros are backed by positive evidence",
+    "status": "pass",
+    "message": "All 4 statements are supported.",
+    "details": []
+   },
+   {
+    "id": "cons",
+    "name": "Cons and issues are backed by negative evidence",
+    "status": "pass",
+    "message": "Nothing to check.",
+    "details": []
+   },
+   {
+    "id": "prose",
+    "name": "Summary text does not contradict the data",
+    "status": "pass",
+    "message": "No contradictions found in the summary text.",
+    "details": []
+   },
+   {
+    "id": "numbers",
+    "name": "Quoted figures are real",
+    "status": "pass",
+    "message": "All quoted figures match the computed statistics.",
+    "details": []
+   },
+   {
+    "id": "omissions",
+    "name": "Major recurring issues are mentioned",
+    "status": "pass",
+    "message": "No major recurring issues exist in the data.",
+    "details": []
+   }
+  ],
+  "claims": [
+   {
+    "section": "pros",
+    "text": "Camera: 6 positive mentions (100% of reviews that discuss it)",
+    "aspect": "camera",
+    "status": "supported",
+    "message": "Supported: 6 positive / 0 negative of 6 mentions.",
+    "evidence": {
+     "aspect": "camera",
+     "mentions": 6,
+     "positive": 6,
+     "neutral": 0,
+     "negative": 0
+    },
+    "examples": [
+     "Camera is good in daylight",
+     "Camera quality is excellent for the price"
+    ]
+   },
+   {
+    "section": "pros",
+    "text": "Battery: 5 positive mentions (56% of reviews that discuss it)",
+    "aspect": "battery",
+    "status": "supported",
+    "message": "Supported: 5 positive / 1 negative of 9 mentions.",
+    "evidence": {
+     "aspect": "battery",
+     "mentions": 9,
+     "positive": 5,
+     "neutral": 3,
+     "negative": 1
+    },
+    "examples": [
+     "Charges super fast",
+     "Amazing battery and performance"
+    ]
+   },
+   {
+    "section": "pros",
+    "text": "Performance: 3 positive mentions (100% of reviews that discuss it)",
+    "aspect": "performance",
+    "status": "supported",
+    "message": "Supported: 3 positive / 0 negative of 3 mentions.",
+    "evidence": {
+     "aspect": "performance",
+     "mentions": 3,
+     "positive": 3,
+     "neutral": 0,
+     "negative": 0
+    },
+    "examples": [
+     "Performance is blazing fast, no lag even with many apps open",
+     "Performance is good"
+    ]
+   },
+   {
+    "section": "pros",
+    "text": "Price: 3 positive mentions (75% of reviews that discuss it)",
+    "aspect": "price",
+    "status": "supported",
+    "message": "Supported: 3 positive / 0 negative of 4 mentions.",
+    "evidence": {
+     "aspect": "price",
+     "mentions": 4,
+     "positive": 3,
+     "neutral": 1,
+     "negative": 0
+    },
+    "examples": [
+     "Fair price",
+     "Camera quality is excellent for the price"
+    ]
+   },
+   {
+    "section": "important_aspects",
+    "text": "Screen: Discussed in 5 reviews; mostly positive (2 positive, 0 negative).",
+    "aspect": "screen",
+    "status": "weak",
+    "message": "Partly supported: positive but only a few mentions.",
+    "evidence": {
+     "aspect": "screen",
+     "mentions": 5,
+     "positive": 2,
+     "neutral": 3,
+     "negative": 0
+    },
+    "examples": []
+   },
+   {
+    "section": "important_aspects",
+    "text": "Speed: Discussed in 5 reviews; mostly positive (2 positive, 0 negative).",
+    "aspect": "speed",
+    "status": "weak",
+    "message": "Partly supported: positive but only a few mentions.",
+    "evidence": {
+     "aspect": "speed",
+     "mentions": 5,
+     "positive": 2,
+     "neutral": 3,
+     "negative": 0
+    },
+    "examples": []
+   }
+  ]
+ },
+ "analysis": {
+  "analyzed_at": "2026-09-30T01:29:30.531999",
+  "run": {
+   "run_id": "dda130ad-a93c-4f95-a568-b7ff317c636b",
+   "product_id": "P002",
+   "status": "done",
+   "stage": "Complete",
+   "progress": 100,
+   "error": null,
+   "created_at": "2026-09-30T01:29:30.400407",
+   "finished_at": "2026-09-30T01:29:30.538416"
+  },
+  "sentiment_backend": "vader",
+  "embedding_backend": "tfidf",
+  "duration_seconds": 0.1,
+  "notes": []
+ }
+}

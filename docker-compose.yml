@@ -1,0 +1,56 @@
+# Whole stack:  docker compose up --build      ->  http://localhost:8080
+# Real transformer models (big image):  INSTALL_ML=true SENTIMENT_BACKEND=auto EMBEDDING_BACKEND=auto docker compose up --build
+# Real LLM:  USE_MOCK_LLM=false LLM_API_KEY=... [LLM_PROVIDER=anthropic] [LLM_MODEL=...] docker compose up --build
+services:
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: reviews
+    ports: ["5432:5432"]
+    volumes: [pgdata:/var/lib/postgresql/data]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d reviews"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+  backend:
+    build:
+      context: ./backend
+      args:
+        INSTALL_ML: ${INSTALL_ML:-false}
+    environment:
+      DATABASE_URL: postgresql://postgres:postgres@db:5432/reviews
+      SENTIMENT_BACKEND: ${SENTIMENT_BACKEND:-vader}
+      EMBEDDING_BACKEND: ${EMBEDDING_BACKEND:-tfidf}
+      USE_MOCK_LLM: ${USE_MOCK_LLM:-true}
+      LLM_PROVIDER: ${LLM_PROVIDER:-anthropic}
+      LLM_API_KEY: ${LLM_API_KEY:-}
+      LLM_MODEL: ${LLM_MODEL:-}
+      MAX_UPLOAD_MB: ${MAX_UPLOAD_MB:-25}
+      SAMPLE_DATA_PATH: /data/sample_reviews.csv
+      CORS_ORIGINS: http://localhost:8080,http://localhost:5173
+    volumes:
+      - ./data:/data:ro
+    depends_on:
+      db:
+        condition: service_healthy
+    ports: ["8000:8000"]
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request as u; u.urlopen('http://localhost:8000/health')"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+  frontend:
+    build:
+      context: ./frontend
+    depends_on:
+      backend:
+        condition: service_healthy
+    ports: ["8080:80"]
+
+volumes:
+  pgdata:

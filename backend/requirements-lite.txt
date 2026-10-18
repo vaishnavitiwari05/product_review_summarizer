@@ -1,0 +1,14 @@
+# Lightweight install: full pipeline with VADER + TF-IDF fallbacks (no torch / model downloads).
+fastapi==0.115.*
+uvicorn[standard]==0.32.*
+python-multipart==0.0.*
+pandas==2.2.*
+python-dotenv==1.0.*
+sqlalchemy==2.0.*
+psycopg2-binary==2.9.*
+pydantic==2.*
+httpx>=0.27
+vaderSentiment==3.3.2
+spacy>=3.7
+scikit-learn>=1.3
+# spaCy model (install once): python -m spacy download en_core_web_sm

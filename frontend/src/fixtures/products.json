@@ -1,0 +1,28 @@
+{
+ "products": [
+  {
+   "product_id": "P001",
+   "product_name": "AuraBeat X1 Wireless Headphones",
+   "review_count": 67,
+   "avg_rating": 3.48,
+   "analyzed": true,
+   "analyzed_at": "2026-09-30T01:29:30.385795",
+   "last_run": {
+    "run_id": "21bdbd5f-9b41-42d1-811d-ec31bb4f976c",
+    "status": "done"
+   }
+  },
+  {
+   "product_id": "P002",
+   "product_name": "Nova S5 Smartphone",
+   "review_count": 36,
+   "avg_rating": 3.37,
+   "analyzed": true,
+   "analyzed_at": "2026-09-30T01:29:30.531999",
+   "last_run": {
+    "run_id": "dda130ad-a93c-4f95-a568-b7ff317c636b",
+    "status": "done"
+   }
+  }
+ ]
+}

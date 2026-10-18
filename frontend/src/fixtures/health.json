@@ -1,0 +1,8 @@
+{
+ "status": "ok",
+ "llm_mode": "mock",
+ "llm_ready": true,
+ "database": "sqlite",
+ "sentiment_backend": "vader",
+ "embedding_backend": "tfidf"
+}

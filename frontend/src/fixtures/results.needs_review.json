@@ -1,0 +1,1069 @@
+{
+ "product": {
+  "product_id": "P001",
+  "product_name": "AuraBeat X1 Wireless Headphones",
+  "total_reviews": 67,
+  "rows_in_file": 71,
+  "removed_as_empty_noise_or_duplicate": 4,
+  "average_rating": 3.48,
+  "date_min": "2024-01-07",
+  "date_max": "2025-12-15"
+ },
+ "sentiment": {
+  "total": 67,
+  "counts": {
+   "positive": 39,
+   "neutral": 12,
+   "negative": 16
+  },
+  "percentages": {
+   "positive": 58.2,
+   "neutral": 17.9,
+   "negative": 23.9
+  },
+  "overall": "Mostly Positive",
+  "net_sentiment": 34.3,
+  "average_score": 0.248,
+  "backend": "vader",
+  "rating_check": {
+   "rated_reviews": 67,
+   "agreement_pct": 79.1,
+   "mismatches": 0
+  }
+ },
+ "aspects": [
+  {
+   "aspect": "sound",
+   "frequency": 15,
+   "mention_pct": 22.4,
+   "positive": 13,
+   "neutral": 2,
+   "negative": 0,
+   "avg_score": 0.526,
+   "polarity": "positive",
+   "examples": {
+    "positive": [
+     {
+      "review_id": 38,
+      "clause": "Sound is good",
+      "review": "Sound is good, battery is good, but the mic is really bad."
+     },
+     {
+      "review_id": 22,
+      "clause": "Sound is good",
+      "review": "Sound is good, but the headband creaks a little when I move."
+     },
+     {
+      "review_id": 25,
+      "clause": "the sound is really good",
+      "review": "Comfortable and the sound is really good."
+     }
+    ],
+    "negative": [],
+    "neutral": [
+     {
+      "review_id": 10,
+      "clause": "the sound is warm and detailed",
+      "review": "Battery life is excellent and the sound is warm and detailed."
+     },
+     {
+      "review_id": 11,
+      "clause": "sound is fine",
+      "review": "Average headphones, sound is fine, battery is fine, nothing stands out."
+     }
+    ]
+   }
+  },
+  {
+   "aspect": "battery",
+   "frequency": 13,
+   "mention_pct": 19.4,
+   "positive": 10,
+   "neutral": 3,
+   "negative": 0,
+   "avg_score": 0.437,
+   "polarity": "positive",
+   "examples": {
+    "positive": [
+     {
+      "review_id": 54,
+      "clause": "Battery life is outstanding",
+      "review": "Battery life is outstanding. Two weeks of commuting on one charge."
+     },
+     {
+      "review_id": 38,
+      "clause": "battery is good",
+      "review": "Sound is good, battery is good, but the mic is really bad."
+     },
+     {
+      "review_id": 52,
+      "clause": "Comfortable, long battery life",
+      "review": "Great headphones. Comfortable, long battery life and rich sound."
+     }
+    ],
+    "negative": [],
+    "neutral": [
+     {
+      "review_id": 11,
+      "clause": "battery is fine, nothing stands out",
+      "review": "Average headphones, sound is fine, battery is fine, nothing stands out."
+     },
+     {
+      "review_id": 28,
+      "clause": "Battery is a huge plus",
+      "review": "Charges quickly, ten minutes gives me hours of playback. Battery is a huge plus."
+     },
+     {
+      "review_id": 23,
+      "clause": "Battery lasts all week",
+      "review": "Bass is powerful and vocals are clear. Battery lasts all week."
+     }
+    ]
+   }
+  },
+  {
+   "aspect": "comfort",
+   "frequency": 12,
+   "mention_pct": 17.9,
+   "positive": 12,
+   "neutral": 0,
+   "negative": 0,
+   "avg_score": 0.603,
+   "polarity": "positive",
+   "examples": {
+    "positive": [
+     {
+      "review_id": 17,
+      "clause": "Lightweight and comfortable, I forget I'm wearing them at the gym",
+      "review": "Lightweight and comfortable, I forget I'm wearing them at the gym."
+     },
+     {
+      "review_id": 33,
+      "clause": "Comfortable at first",
+      "review": "Comfortable at first but the ear pads get warm after an hour."
+     },
+     {
+      "review_id": 57,
+      "clause": "Comfortable enough",
+      "review": "It's alright. Comfortable enough but I expected a bit more bass."
+     }
+    ],
+    "negative": [],
+    "neutral": []
+   }
+  },
+  {
+   "aspect": "microphone",
+   "frequency": 10,
+   "mention_pct": 14.9,
+   "positive": 1,
+   "neutral": 2,
+   "negative": 7,
+   "avg_score": -0.277,
+   "polarity": "negative",
+   "examples": {
+    "positive": [
+     {
+      "review_id": 16,
+      "clause": "does not block voices very well",
+      "review": "Noise cancelling is okay, does not block voices very well."
+     }
+    ],
+    "negative": [
+     {
+      "review_id": 42,
+      "clause": "The microphone is terrible",
+      "review": "The microphone is terrible. People on calls say my voice sounds muffled and unclear."
+     },
+     {
+      "review_id": 35,
+      "clause": "Microphone is bad",
+      "review": "Microphone is bad. Voice sounds unclear on every call, had to switch to my phone mic."
+     },
+     {
+      "review_id": 66,
+      "clause": "the mic is awful",
+      "review": "Music sounds great but the mic is awful. Fine for listening, not for calls."
+     }
+    ],
+    "neutral": [
+     {
+      "review_id": 37,
+      "clause": "Mic quality is poor",
+      "review": "Mic quality is poor, my voice sounds like I'm in a tunnel. Useless for meetings."
+     },
+     {
+      "review_id": 39,
+      "clause": "Mic is average though",
+      "review": "Sound is great, especially for the price. Mic is average though."
+     }
+    ]
+   }
+  },
+  {
+   "aspect": "price",
+   "frequency": 8,
+   "mention_pct": 11.9,
+   "positive": 6,
+   "neutral": 1,
+   "negative": 1,
+   "avg_score": 0.301,
+   "polarity": "positive",
+   "examples": {
+    "positive": [
+     {
+      "review_id": 51,
+      "clause": "ANC works well for the price, not quite premium level",
+      "review": "ANC works well for the price, not quite premium level but very good."
+     },
+     {
+      "review_id": 12,
+      "clause": "Price is fair for what you get",
+      "review": "Price is fair for what you get. Great sound for under a hundred dollars."
+     },
+     {
+      "review_id": 24,
+      "clause": "Sounds way better than headphones twice the price",
+      "review": "Excellent value for money. Sounds way better than headphones twice the price."
+     }
+    ],
+    "negative": [
+     {
+      "review_id": 31,
+      "clause": "Not worth the price given the mic and durability problems",
+      "review": "Not worth the price given the mic and durability problems."
+     }
+    ],
+    "neutral": [
+     {
+      "review_id": 48,
+      "clause": "a bit overpriced compared to similar models",
+      "review": "Decent headphones but a bit overpriced compared to similar models."
+     }
+    ]
+   }
+  },
+  {
+   "aspect": "bass",
+   "frequency": 5,
+   "mention_pct": 7.5,
+   "positive": 2,
+   "neutral": 3,
+   "negative": 0,
+   "avg_score": 0.237,
+   "polarity": "positive",
+   "examples": {
+    "positive": [
+     {
+      "review_id": 23,
+      "clause": "Bass is powerful",
+      "review": "Bass is powerful and vocals are clear. Battery lasts all week."
+     },
+     {
+      "review_id": 30,
+      "clause": "Deep bass and crisp highs, easily the best I've owned at this price",
+      "review": "Sound quality is fantastic. Deep bass and crisp highs, easily the best I've owned at this price."
+     }
+    ],
+    "negative": [],
+    "neutral": [
+     {
+      "review_id": 21,
+      "clause": "bass is punchy without being muddy",
+      "review": "Love the sound signature, bass is punchy without being muddy."
+     },
+     {
+      "review_id": 40,
+      "clause": "Bass is deep and controlled",
+      "review": "Bass is deep and controlled. Battery life amazing."
+     },
+     {
+      "review_id": 57,
+      "clause": "I expected a bit more bass",
+      "review": "It's alright. Comfortable enough but I expected a bit more bass."
+     }
+    ]
+   }
+  },
+  {
+   "aspect": "durability",
+   "frequency": 5,
+   "mention_pct": 7.5,
+   "positive": 1,
+   "neutral": 1,
+   "negative": 3,
+   "avg_score": -0.2,
+   "polarity": "negative",
+   "examples": {
+    "positive": [
+     {
+      "review_id": 14,
+      "clause": "looks premium and feels sturdy in the hand",
+      "review": "Stylish design, looks premium and feels sturdy in the hand."
+     }
+    ],
+    "negative": [
+     {
+      "review_id": 29,
+      "clause": "Durability is poor",
+      "review": "Ear cushions started peeling after two months. Durability is poor."
+     },
+     {
+      "review_id": 63,
+      "clause": "Durability is disappointing",
+      "review": "Left ear cup stopped working after four months. Durability is disappointing."
+     },
+     {
+      "review_id": 31,
+      "clause": "Not worth the price given the mic and durability problems",
+      "review": "Not worth the price given the mic and durability problems."
+     }
+    ],
+    "neutral": [
+     {
+      "review_id": 53,
+      "clause": "Feels flimsy",
+      "review": "Broke at the hinge after just three months of normal use. Feels flimsy."
+     }
+    ]
+   }
+  },
+  {
+   "aspect": "design",
+   "frequency": 4,
+   "mention_pct": 6.0,
+   "positive": 2,
+   "neutral": 2,
+   "negative": 0,
+   "avg_score": 0.292,
+   "polarity": "positive",
+   "examples": {
+    "positive": [
+     {
+      "review_id": 4,
+      "clause": "Very comfortable ear cushions and lightweight design",
+      "review": "Very comfortable ear cushions and lightweight design. Sound is rich and balanced."
+     },
+     {
+      "review_id": 18,
+      "clause": "Very happy with the design",
+      "review": "Comfortable fit, doesn't clamp my head. Very happy with the design."
+     }
+    ],
+    "negative": [],
+    "neutral": [
+     {
+      "review_id": 14,
+      "clause": "Stylish design",
+      "review": "Stylish design, looks premium and feels sturdy in the hand."
+     },
+     {
+      "review_id": 50,
+      "clause": "Sleek design",
+      "review": "Sleek design and the matte finish looks great. Folds up compactly."
+     }
+    ]
+   }
+  },
+  {
+   "aspect": "hinge",
+   "frequency": 4,
+   "mention_pct": 6.0,
+   "positive": 0,
+   "neutral": 1,
+   "negative": 3,
+   "avg_score": -0.33,
+   "polarity": "negative",
+   "examples": {
+    "positive": [],
+    "negative": [
+     {
+      "review_id": 3,
+      "clause": "the hinge broke within four months",
+      "review": "Total disappointment. Mic sounds terrible and the hinge broke within four months."
+     },
+     {
+      "review_id": 53,
+      "clause": "Broke at the hinge after just three months of normal use",
+      "review": "Broke at the hinge after just three months of normal use. Feels flimsy."
+     },
+     {
+      "review_id": 36,
+      "clause": "Customer service never replied to my emails about the broken hinge",
+      "review": "Customer service never replied to my emails about the broken hinge. Terrible support."
+     }
+    ],
+    "neutral": [
+     {
+      "review_id": 59,
+      "clause": "The plastic hinge cracked after light use",
+      "review": "The plastic hinge cracked after light use. Build quality is not great."
+     }
+    ]
+   }
+  },
+  {
+   "aspect": "noise cancellation",
+   "frequency": 4,
+   "mention_pct": 6.0,
+   "positive": 2,
+   "neutral": 2,
+   "negative": 0,
+   "avg_score": 0.152,
+   "polarity": "positive",
+   "examples": {
+    "positive": [
+     {
+      "review_id": 51,
+      "clause": "ANC works well for the price, not quite premium level",
+      "review": "ANC works well for the price, not quite premium level but very good."
+     },
+     {
+      "review_id": 2,
+      "clause": "Noise cancellation is impressive on my train commute",
+      "review": "Noise cancellation is impressive on my train commute. Blocks out most engine noise."
+     }
+    ],
+    "negative": [],
+    "neutral": [
+     {
+      "review_id": 62,
+      "clause": "Noise cancelling is decent too",
+      "review": "Great sound and the battery backup is excellent. Noise cancelling is decent too."
+     },
+     {
+      "review_id": 16,
+      "clause": "Noise cancelling is okay",
+      "review": "Noise cancelling is okay, does not block voices very well."
+     }
+    ]
+   }
+  },
+  {
+   "aspect": "connectivity",
+   "frequency": 3,
+   "mention_pct": 4.5,
+   "positive": 0,
+   "neutral": 2,
+   "negative": 1,
+   "avg_score": -0.127,
+   "polarity": "negative",
+   "examples": {
+    "positive": [],
+    "negative": [
+     {
+      "review_id": 1,
+      "clause": "Keeps disconnecting from my laptop, very annoying connectivity",
+      "review": "Keeps disconnecting from my laptop, very annoying connectivity."
+     }
+    ],
+    "neutral": [
+     {
+      "review_id": 61,
+      "clause": "the connection is rock solid",
+      "review": "Bluetooth pairing is instant and the connection is rock solid."
+     },
+     {
+      "review_id": 64,
+      "clause": "Bluetooth drops out occasionally when my phone is in my back pocket",
+      "review": "Bluetooth drops out occasionally when my phone is in my back pocket."
+     }
+    ]
+   }
+  },
+  {
+   "aspect": "customer service",
+   "frequency": 3,
+   "mention_pct": 4.5,
+   "positive": 1,
+   "neutral": 1,
+   "negative": 1,
+   "avg_score": 0.11,
+   "polarity": "mixed",
+   "examples": {
+    "positive": [
+     {
+      "review_id": 26,
+      "clause": "Waited three weeks for support to respond about the warranty",
+      "review": "Waited three weeks for support to respond about the warranty. Very frustrating."
+     }
+    ],
+    "negative": [
+     {
+      "review_id": 36,
+      "clause": "Customer service never replied to my emails about the broken hinge",
+      "review": "Customer service never replied to my emails about the broken hinge. Terrible support."
+     }
+    ],
+    "neutral": [
+     {
+      "review_id": 49,
+      "clause": "Great support",
+      "review": "Customer service replaced my unit within days when the first one had a defect. Great support."
+     }
+    ]
+   }
+  },
+  {
+   "aspect": "delivery",
+   "frequency": 3,
+   "mention_pct": 4.5,
+   "positive": 0,
+   "neutral": 3,
+   "negative": 0,
+   "avg_score": 0.0,
+   "polarity": "mixed",
+   "examples": {
+    "positive": [],
+    "negative": [],
+    "neutral": [
+     {
+      "review_id": 9,
+      "clause": "Delivery was late by over a week and nobody could tell me where it was",
+      "review": "Delivery was late by over a week and nobody could tell me where it was."
+     },
+     {
+      "review_id": 34,
+      "clause": "Delivery was fast",
+      "review": "Delivery was fast and packaging was very secure. Arrived a day early."
+     },
+     {
+      "review_id": 46,
+      "clause": "Delivery took two weeks",
+      "review": "Package arrived damaged and the box was crushed. Delivery took two weeks."
+     }
+    ]
+   }
+  },
+  {
+   "aspect": "quality",
+   "frequency": 2,
+   "mention_pct": 3.0,
+   "positive": 1,
+   "neutral": 0,
+   "negative": 1,
+   "avg_score": 0.024,
+   "polarity": "mixed",
+   "examples": {
+    "positive": [
+     {
+      "review_id": 30,
+      "clause": "Sound quality is fantastic",
+      "review": "Sound quality is fantastic. Deep bass and crisp highs, easily the best I've owned at this price."
+     }
+    ],
+    "negative": [
+     {
+      "review_id": 59,
+      "clause": "Build quality is not great",
+      "review": "The plastic hinge cracked after light use. Build quality is not great."
+     }
+    ],
+    "neutral": []
+   }
+  }
+ ],
+ "recurring_strengths": [
+  {
+   "aspect": "sound",
+   "sentiment": "positive",
+   "count": 13,
+   "share_of_aspect": 0.867,
+   "share_of_reviews": 19.4,
+   "contested": false,
+   "themes": [
+    {
+     "label": "Sound was great at first",
+     "count": 6,
+     "review_ids": [
+      15,
+      12,
+      62,
+      39,
+      60,
+      43
+     ]
+    },
+    {
+     "label": "Sound is good",
+     "count": 3,
+     "review_ids": [
+      25,
+      22,
+      38
+     ]
+    },
+    {
+     "label": "Sound is rich and balanced",
+     "count": 2,
+     "review_ids": [
+      52,
+      4
+     ]
+    }
+   ],
+   "examples": [
+    {
+     "review_id": 20,
+     "clause": "balanced sound and a comfortable fit",
+     "review": "Crisp, balanced sound and a comfortable fit. Highly recommend."
+    },
+    {
+     "review_id": 15,
+     "clause": "Great sound! visit now",
+     "review": "Great sound!!! <br> visit http://spam.example.com now \ud83d\ude00\ud83d\ude00"
+    },
+    {
+     "review_id": 12,
+     "clause": "Great sound for under a hundred dollars",
+     "review": "Price is fair for what you get. Great sound for under a hundred dollars."
+    }
+   ]
+  },
+  {
+   "aspect": "comfort",
+   "sentiment": "positive",
+   "count": 12,
+   "share_of_aspect": 1.0,
+   "share_of_reviews": 17.9,
+   "contested": false,
+   "themes": [
+    {
+     "label": "Very comfortable",
+     "count": 5,
+     "review_ids": [
+      47,
+      13,
+      33,
+      57,
+      52
+     ]
+    },
+    {
+     "label": "Comfortable fit, doesn't clamp my head",
+     "count": 2,
+     "review_ids": [
+      18,
+      20
+     ]
+    }
+   ],
+   "examples": [
+    {
+     "review_id": 56,
+     "clause": "Super comfortable, I wear them for hours and my ears never hurt",
+     "review": "Super comfortable, I wear them for hours and my ears never hurt."
+    },
+    {
+     "review_id": 27,
+     "clause": "comfort are all excellent",
+     "review": "Best purchase this year. Sound, battery and comfort are all excellent."
+    },
+    {
+     "review_id": 47,
+     "clause": "Good battery and comfortable, would buy again",
+     "review": "Good battery and comfortable, would buy again."
+    }
+   ]
+  },
+  {
+   "aspect": "battery",
+   "sentiment": "positive",
+   "count": 10,
+   "share_of_aspect": 0.769,
+   "share_of_reviews": 14.9,
+   "contested": false,
+   "themes": [
+    {
+     "label": "Battery life amazing",
+     "count": 5,
+     "review_ids": [
+      40,
+      55,
+      10,
+      52,
+      54
+     ]
+    },
+    {
+     "label": "Good battery and comfortable, would buy again",
+     "count": 2,
+     "review_ids": [
+      47,
+      38
+     ]
+    },
+    {
+     "label": "The battery backup is superb",
+     "count": 2,
+     "review_ids": [
+      13,
+      62
+     ]
+    }
+   ],
+   "examples": [
+    {
+     "review_id": 47,
+     "clause": "Good battery and comfortable, would buy again",
+     "review": "Good battery and comfortable, would buy again."
+    },
+    {
+     "review_id": 13,
+     "clause": "the battery backup is superb",
+     "review": "Solid all-round headphones. Very comfortable and the battery backup is superb."
+    },
+    {
+     "review_id": 40,
+     "clause": "Battery life amazing",
+     "review": "Bass is deep and controlled. Battery life amazing."
+    }
+   ]
+  },
+  {
+   "aspect": "price",
+   "sentiment": "positive",
+   "count": 6,
+   "share_of_aspect": 0.75,
+   "share_of_reviews": 9.0,
+   "contested": false,
+   "themes": [],
+   "examples": [
+    {
+     "review_id": 30,
+     "clause": "Deep bass and crisp highs, easily the best I've owned at this price",
+     "review": "Sound quality is fantastic. Deep bass and crisp highs, easily the best I've owned at this price."
+    },
+    {
+     "review_id": 39,
+     "clause": "Sound is great, especially for the price",
+     "review": "Sound is great, especially for the price. Mic is average though."
+    },
+    {
+     "review_id": 58,
+     "clause": "Comfortable and light, sound quality punches above its price",
+     "review": "Comfortable and light, sound quality punches above its price."
+    }
+   ]
+  }
+ ],
+ "recurring_issues": [
+  {
+   "aspect": "microphone",
+   "sentiment": "negative",
+   "count": 7,
+   "share_of_aspect": 0.7,
+   "share_of_reviews": 10.4,
+   "contested": false,
+   "themes": [
+    {
+     "label": "Mic is horrible",
+     "count": 2,
+     "review_ids": [
+      43,
+      66
+     ]
+    },
+    {
+     "label": "Mic sounds terrible",
+     "count": 2,
+     "review_ids": [
+      3,
+      42
+     ]
+    },
+    {
+     "label": "The mic is really bad",
+     "count": 2,
+     "review_ids": [
+      38,
+      35
+     ]
+    }
+   ],
+   "examples": [
+    {
+     "review_id": 38,
+     "clause": "the mic is really bad",
+     "review": "Sound is good, battery is good, but the mic is really bad."
+    },
+    {
+     "review_id": 43,
+     "clause": "Mic is horrible",
+     "review": "Mic is horrible. Nobody can hear me on calls. Sound is great but I can't use it for work."
+    },
+    {
+     "review_id": 3,
+     "clause": "Mic sounds terrible",
+     "review": "Total disappointment. Mic sounds terrible and the hinge broke within four months."
+    }
+   ]
+  },
+  {
+   "aspect": "durability",
+   "sentiment": "negative",
+   "count": 3,
+   "share_of_aspect": 0.6,
+   "share_of_reviews": 4.5,
+   "contested": false,
+   "themes": [],
+   "examples": [
+    {
+     "review_id": 31,
+     "clause": "Not worth the price given the mic and durability problems",
+     "review": "Not worth the price given the mic and durability problems."
+    },
+    {
+     "review_id": 63,
+     "clause": "Durability is disappointing",
+     "review": "Left ear cup stopped working after four months. Durability is disappointing."
+    },
+    {
+     "review_id": 29,
+     "clause": "Durability is poor",
+     "review": "Ear cushions started peeling after two months. Durability is poor."
+    }
+   ]
+  },
+  {
+   "aspect": "hinge",
+   "sentiment": "negative",
+   "count": 3,
+   "share_of_aspect": 0.75,
+   "share_of_reviews": 4.5,
+   "contested": false,
+   "themes": [
+    {
+     "label": "Broke at the hinge after just three months of normal use",
+     "count": 2,
+     "review_ids": [
+      3,
+      53
+     ]
+    }
+   ],
+   "examples": [
+    {
+     "review_id": 36,
+     "clause": "Customer service never replied to my emails about the broken hinge",
+     "review": "Customer service never replied to my emails about the broken hinge. Terrible support."
+    },
+    {
+     "review_id": 3,
+     "clause": "the hinge broke within four months",
+     "review": "Total disappointment. Mic sounds terrible and the hinge broke within four months."
+    },
+    {
+     "review_id": 53,
+     "clause": "Broke at the hinge after just three months of normal use",
+     "review": "Broke at the hinge after just three months of normal use. Feels flimsy."
+    }
+   ]
+  }
+ ],
+ "contested_aspects": [],
+ "summary": {
+  "mode": "live",
+  "model": "demo-model",
+  "warnings": [],
+  "overall_summary": "Customers are overwhelmingly positive and generally love the microphone. Battery life is amazing.",
+  "pros": [
+   "Crystal-clear microphone",
+   "Excellent battery life",
+   "Great touch controls"
+  ],
+  "cons": [
+   "Slightly expensive"
+  ],
+  "recurring_issues": [],
+  "important_aspects": [
+   {
+    "aspect": "Microphone",
+    "note": "Praised by 92% of users."
+   }
+  ],
+  "sentiment_explanation": "92% of reviews are positive."
+ },
+ "validation": {
+  "verdict": "Needs Review",
+  "score": 22,
+  "headline": "1 unsupported/contradicted, 1 weak/unverified of 3.",
+  "checks": [
+   {
+    "id": "sentiment",
+    "name": "Overall sentiment matches data",
+    "status": "warn",
+    "message": "Wording is stronger than the data supports (Mostly Positive).",
+    "details": [
+     "Wording is stronger than the data supports (Mostly Positive)."
+    ]
+   },
+   {
+    "id": "pros",
+    "name": "Pros are backed by positive evidence",
+    "status": "fail",
+    "message": "1 unsupported/contradicted, 1 weak/unverified of 3.",
+    "details": [
+     "Crystal-clear microphone -> Contradicted by the data: customers mostly complain: 7 negative vs 1 positive mentions.",
+     "Great touch controls -> No analysed aspect matches this statement, so it cannot be checked against the data."
+    ]
+   },
+   {
+    "id": "cons",
+    "name": "Cons and issues are backed by negative evidence",
+    "status": "warn",
+    "message": "1 unsupported/contradicted, 0 weak/unverified of 1.",
+    "details": [
+     "Slightly expensive -> Not supported: only 1 negative mention vs 6 positive."
+    ]
+   },
+   {
+    "id": "prose",
+    "name": "Summary text does not contradict the data",
+    "status": "fail",
+    "message": "2 statement(s) in the summary text conflict with the data.",
+    "details": [
+     "'Customers are overwhelmingly positive and generally love the microphone' -> Contradicted by the data: customers mostly complain: 7 negative vs 1 positive mentions.",
+     "'Microphone: Praised by 92% of users.' -> Contradicted by the data: customers mostly complain: 7 negative vs 1 positive mentions."
+    ]
+   },
+   {
+    "id": "numbers",
+    "name": "Quoted figures are real",
+    "status": "fail",
+    "message": "2 figure(s) in the summary are not backed by the data.",
+    "details": [
+     "92% does not match any computed percentage",
+     "92% does not match any computed percentage"
+    ]
+   },
+   {
+    "id": "omissions",
+    "name": "Major recurring issues are mentioned",
+    "status": "fail",
+    "message": "The summary ignores a major recurring issue: microphone (7 negative mentions).",
+    "details": [
+     "microphone: 7 negative mentions, 10.4% of reviews"
+    ]
+   }
+  ],
+  "claims": [
+   {
+    "section": "pros",
+    "text": "Crystal-clear microphone",
+    "aspect": "microphone",
+    "status": "contradicted",
+    "message": "Contradicted by the data: customers mostly complain: 7 negative vs 1 positive mentions.",
+    "evidence": {
+     "aspect": "microphone",
+     "mentions": 10,
+     "positive": 1,
+     "neutral": 2,
+     "negative": 7
+    },
+    "examples": [
+     "The microphone is terrible",
+     "Microphone is bad"
+    ]
+   },
+   {
+    "section": "pros",
+    "text": "Excellent battery life",
+    "aspect": "battery",
+    "status": "supported",
+    "message": "Supported: 10 positive / 0 negative of 13 mentions.",
+    "evidence": {
+     "aspect": "battery",
+     "mentions": 13,
+     "positive": 10,
+     "neutral": 3,
+     "negative": 0
+    },
+    "examples": [
+     "Battery life is outstanding",
+     "battery is good"
+    ]
+   },
+   {
+    "section": "pros",
+    "text": "Great touch controls",
+    "aspect": null,
+    "status": "unverified",
+    "message": "No analysed aspect matches this statement, so it cannot be checked against the data.",
+    "evidence": {},
+    "examples": []
+   },
+   {
+    "section": "cons",
+    "text": "Slightly expensive",
+    "aspect": "price",
+    "status": "unsupported",
+    "message": "Not supported: only 1 negative mention vs 6 positive.",
+    "evidence": {
+     "aspect": "price",
+     "mentions": 8,
+     "positive": 6,
+     "neutral": 1,
+     "negative": 1
+    },
+    "examples": [
+     "ANC works well for the price, not quite premium level",
+     "Price is fair for what you get"
+    ]
+   },
+   {
+    "section": "overall_summary",
+    "text": "Customers are overwhelmingly positive and generally love the microphone",
+    "aspect": "microphone",
+    "status": "contradicted",
+    "message": "Contradicted by the data: customers mostly complain: 7 negative vs 1 positive mentions.",
+    "evidence": {
+     "aspect": "microphone",
+     "mentions": 10,
+     "positive": 1,
+     "neutral": 2,
+     "negative": 7
+    },
+    "examples": [
+     "The microphone is terrible",
+     "Microphone is bad"
+    ]
+   },
+   {
+    "section": "important_aspects",
+    "text": "Microphone: Praised by 92% of users.",
+    "aspect": "microphone",
+    "status": "contradicted",
+    "message": "Contradicted by the data: customers mostly complain: 7 negative vs 1 positive mentions.",
+    "evidence": {
+     "aspect": "microphone",
+     "mentions": 10,
+     "positive": 1,
+     "neutral": 2,
+     "negative": 7
+    },
+    "examples": [
+     "The microphone is terrible",
+     "Microphone is bad"
+    ]
+   }
+  ]
+ },
+ "analysis": {
+  "analyzed_at": "2026-09-30T01:29:30.804246",
+  "run": {
+   "run_id": "ec8c685d-16ca-4c28-87bc-4a4ce995d117",
+   "product_id": "P001",
+   "status": "done",
+   "stage": "Complete",
+   "progress": 100,
+   "error": null,
+   "created_at": "2026-09-30T01:29:30.604079",
+   "finished_at": "2026-09-30T01:29:30.811260"
+  },
+  "sentiment_backend": "vader",
+  "embedding_backend": "tfidf",
+  "duration_seconds": 0.2,
+  "notes": []
+ }
+}
